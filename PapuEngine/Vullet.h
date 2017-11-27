@@ -13,5 +13,8 @@ public:
 	void draw(SpriteBacth& spritebatch);
 	Vullet(std::string texture,glm::vec2 position);
 	~Vullet();
+	void update(float deltaTime);
+	float getPos();
+	float getPosX();
 };
 
